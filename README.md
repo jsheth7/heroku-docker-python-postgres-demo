@@ -6,6 +6,9 @@ Demo: Develop an app with Python, Postgres, and Docker and deploy it to Heroku
 Install Docker
 Rename env_sample.txt to .env and adjust values
 
+    cp env_sample.txt ./.env
+    edit ./.env
+
 ## Local Development
 
 docker-compose build
